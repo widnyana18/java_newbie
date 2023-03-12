@@ -1,0 +1,2 @@
+rootProject.name='Passing_Object_Array'
+include ':app'
