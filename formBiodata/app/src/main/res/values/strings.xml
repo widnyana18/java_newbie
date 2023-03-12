@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">formBiodata</string>
+    <string name="title">Biodata Mahasiswa</string>
+    <string name="img_desc">Sasuke</string>
+    <string name="label_nama">Nama</string>
+    <string name="label_nim">NIM</string>
+    <string name="label_alamat">Alamat</string>
+    <string name="label_hoby">Hoby</string>
+    <string name="nama_val">I Made Andi Darma Arisuta</string>
+    <string name="nim_val">Hoby</string>
+    <string name="alamat_val">Dalung Permai</string>
+    <string name="hoby_val">Olahraga</string>
+    <string name="exit">EXIT</string>
+</resources>
