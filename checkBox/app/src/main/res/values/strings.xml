@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">checkBoxAndi</string>
+    <string name="title">Memilih Hari</string>
+    <string name="pagi">Pagi</string>
+    <string name="siang">Siang</string>
+    <string name="malam">Malam</string>
+    <string name="tampilkan">Tampilkan</string>
+    <string name="hasil"></string>
+</resources>
