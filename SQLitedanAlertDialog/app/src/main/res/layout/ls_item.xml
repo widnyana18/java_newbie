@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="158dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="168dp"
+            android:layout_marginEnd="228dp"
+            android:layout_marginRight="228dp"
+            android:layout_marginBottom="405dp">
+
+            <TextView
+                android:id="@+id/textViewNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="72dp"
+                android:layout_marginRight="72dp"
+                android:layout_marginBottom="139dp"
+                android:text="TextView" />
+
+            <ImageView
+                android:id="@+id/textViewItem"
+                android:layout_width="128dp"
+                android:layout_height="124dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="37dp"
+                android:scaleType="fitXY"
+                android:scrCompat="@android:drawble/sym_def_app_icon" />
+
+            <TextView
+                android:id="@+id/textViewNim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewItem"
+                android:layout_marginStart="77dp"
+                android:layout_marginLeft="77dp"
+                android:layout_marginTop="-32dp"
+                android:android_alignParentStart="true"
+                android:text="TextView"
+                android:visibility="invisible"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/textViewPath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewItem"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="79dp"
+                android:layout_marginLeft="79dp"
+                android:layout_marginTop="-34dp"
+                android:text="TextView"
+                android:visibility="invisible"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/textViewUmur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="75dp"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

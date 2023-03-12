@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonAddData" type="id" />
+    <item name="gridViewDataAll" type="id" />
+    <item name="buttonInsert" type="id" />
+    <item name="buttonUpdate" type="id" />
+    <item name="buttonDelete" type="id" />
+    <item name="buttonView" type="id" />
+    <item name="editTextNim" type="id" />
+    <item name="editTextNama" type="id" />
+    <item name="editTextUmur" type="id" />
+    <item name="imageViewFoto" type="id" />
+</resources>
