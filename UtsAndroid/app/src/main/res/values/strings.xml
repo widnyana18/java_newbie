@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">UtsAndroid</string>
+    <string name="home_menu">Home</string>
+    <string name="about_menu">About</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="about_fragment">About Fragment </string>
+
+    <string name="foto">Foto</string>
+    <string name="mobil">Mobil</string>
+
+    <string-array name="nama_mobil">
+        <item>Toyota Avanza</item>
+        <item>Toyota Calya</item>
+        <item>Toyota Camry</item>
+        <item>Honda CR-V</item>
+        <item>Toyota Fortuner</item>
+        <item>Toyota Kijang Innova</item>
+        <item>Honda Jazz</item>
+        <item>Mitsubishi Pajero</item>
+        <item>Toyota Rush</item>
+        <item>Daihatsu Sigra</item>
+        <item>Daihatsu Terios</item>
+        <item>Mitsubishi Xpander</item>
+    </string-array>
+
+    <array name="foto_mobil">
+        <item>@drawable/avanza</item>
+        <item>@drawable/calya</item>
+        <item>@drawable/camry</item>
+        <item>@drawable/crv</item>
+        <item>@drawable/fortuner</item>
+        <item>@drawable/innova</item>
+        <item>@drawable/jazz</item>
+        <item>@drawable/pajero</item>
+        <item>@drawable/rush</item>
+        <item>@drawable/sigra</item>
+        <item>@drawable/terios</item>
+        <item>@drawable/xpander</item>
+    </array>
+
+    <string-array name="harga_mobil">
+        <item> Rp 191,1 Juta </item>
+        <item> Rp 138,85 Juta </item>
+        <item> Rp 629,85 Juta </item>
+        <item> Rp 444,5 Juta </item>
+        <item> Rp 474,05 Juta </item>
+        <item> Rp 309,85 Juta </item>
+        <item> Rp 240,5 Juta </item>
+        <item> Rp 481,5 Juta </item>
+        <item> Rp 244,25 Juta </item>
+        <item> Rp 114 Juta </item>
+        <item> Rp 202,3 Juta </item>
+        <item> Rp 210,3 Juta </item>
+    </string-array>
+
+    <string-array name="dp_mobil">
+        <item> Rp 30,85 Juta </item>
+        <item> Rp 14,42 Juta </item>
+        <item> Rp 130,4 Juta </item>
+        <item> Rp 62,8 Juta </item>
+        <item> Rp 69,28 Juta </item>
+        <item> Rp 38,26 Juta </item>
+        <item> Rp 48,1 Juta </item>
+        <item> Rp 47,65 Juta </item>
+        <item> Rp 39,25 Juta </item>
+        <item> Rp 6,49 Juta </item>
+        <item> Rp 32,73 Juta </item>
+        <item> Rp 17,21 Juta </item>
+    </string-array>
+
+    <string-array name="angsuran_mobil">
+        <item> Rp 14,43 Juta </item>
+        <item> Rp 3,57 Juta </item>
+        <item> Rp 14,18 Juta </item>
+        <item> Rp 10,11 Juta </item>
+        <item> Rp 10,54 Juta </item>
+        <item> Rp 23,29 Juta </item>
+        <item> Rp 5,7 Juta </item>
+        <item> Rp 10,6 Juta </item>
+        <item> Rp 6,09 Juta </item>
+        <item> Rp 9,31 Juta </item>
+        <item> Rp 4,89 Juta </item>
+        <item> Rp 4,9 Juta </item>
+    </string-array>
+
+    <string-array name="tenor_mobil">
+        <item> 12 Bulan </item>
+        <item> 60 Bulan </item>
+        <item> 60 Bulan </item>
+        <item> 60 Bulan </item>
+        <item> 60 Bulan </item>
+        <item> 12 Bulan </item>
+        <item> 60 Bulan </item>
+        <item> 60 Bulan </item>
+        <item> 60 Bulan </item>
+        <item> 12 Bulan </item>
+        <item> 48 Bulan </item>
+        <item> 60 Bulan </item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
