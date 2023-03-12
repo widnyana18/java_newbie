@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tugas Kedua</string>
+    <string name="hint_nim">Masukan Nim</string>
+    <string name="hint_nama">Masukan Nama</string>
+    <string name="hint_absen">Nilai Absen</string>
+    <string name="hint_tugas">Nilai Tugas</string>
+    <string name="hint_kuis">Nilai Kuis</string>
+    <string name="hint_uts">Nilai Uts</string>
+    <string name="hint_uas">Nilai Uas</string>
+    <string name="text_nim"></string>
+    <string name="text_nama"></string>
+    <string name="text_absen"></string>
+    <string name="text_tugas"></string>
+    <string name="text_kuis"></string>
+    <string name="text_uts"></string>
+    <string name="text_uas"></string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_hapus">Hapus</string>
+    <string name="title">Detail Nilai</string>
+    <string name="nim">Nim : </string>
+    <string name="nama">Nama : </string>
+    <string name="absen">Absen : </string>
+    <string name="tugas">Tugas : </string>
+    <string name="kuis">Kuis : </string>
+    <string name="uts">Uts : </string>
+    <string name="uas">Uas : </string>
+    <string name="total_nilai">Total Nilai : </string>
+    <string name="predikat">Predikat : </string>
+    <string name="kesimpulan">Kesimpulan : </string>
+</resources>

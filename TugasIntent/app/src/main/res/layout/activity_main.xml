@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:viewBindingIgnore="true"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edt_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="@string/hint_nim"
+            android:text="@string/text_nim"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/hint_nama"
+            android:text="@string/text_nama"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edt_absen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/hint_absen"
+            android:text="@string/text_absen"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edt_tugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/hint_tugas"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:text="@string/text_tugas"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edt_kuis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/hint_kuis"
+            android:text="@string/text_kuis"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edt_uts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/hint_uts"
+            android:text="@string/text_uts"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edt_uas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/hint_uas"
+            android:text="@string/text_uas"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_simpan"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorBlue"
+                android:text="@string/btn_simpan" />
+
+            <Button
+                android:id="@+id/btn_hapus"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorBlue"
+                android:text="@string/btn_hapus" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
